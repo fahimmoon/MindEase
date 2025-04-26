@@ -1,6 +1,21 @@
-# Getting Started with Create React App
+# MindEase - Mental Wellness Companion
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A mental wellness support platform developed as a project for BSCS at University, Karachi. The application aims to provide accessible mental health resources and support through innovative technology.
+
+## Developer
+
+- **Name:** Fahim Ahmad
+- **Location:** Karachi, Pakistan
+- **GitHub:** [github.com/fahimmoon](https://github.com/fahimmoon)
+- **Email:** moonhunzai83@gmail.com
+
+## Project Overview
+
+MindEase is designed to make mental health support more accessible through:
+- AI-powered chat support
+- Calming techniques and resources
+- Educational content
+- Crisis support information
 
 ## Available Scripts
 
