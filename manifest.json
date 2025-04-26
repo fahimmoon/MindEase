@@ -1,0 +1,16 @@
+{
+  "short_name": "MindEase",
+  "name": "MindEase - Mental Wellness Companion",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#38a081",
+  "background_color": "#ffffff"
+}
