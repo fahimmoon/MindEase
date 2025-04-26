@@ -1,6 +1,8 @@
 # MindEase - Mental Wellness Companion
 
-A mental wellness support platform developed as a project for BSCS at University, Karachi. The application aims to provide accessible mental health resources and support through innovative technology.
+MindEase is a mental wellness support platform developed as part of a project for BSCS at szabist University, Karachi. The application is designed to make mental health resources and support easily accessible through innovative technology.
+
+---
 
 ## Developer
 
@@ -9,77 +11,86 @@ A mental wellness support platform developed as a project for BSCS at University
 - **GitHub:** [github.com/fahimmoon](https://github.com/fahimmoon)
 - **Email:** moonhunzai83@gmail.com
 
+---
+
 ## Project Overview
 
-MindEase is designed to make mental health support more accessible through:
-- AI-powered chat support
-- Calming techniques and resources
-- Educational content
-- Crisis support information
+MindEase aims to provide comprehensive mental wellness support, including:
+
+- **AI-powered chat support**: Interactive support from a virtual assistant.
+- **Calming techniques**: Guided practices and exercises for stress relief.
+- **Educational content**: Information to understand and improve mental health.
+- **Crisis support information**: Immediate resources and contact details for urgent mental health assistance.
+
+---
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run the following commands:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in development mode.  
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will automatically reload upon any changes.  
+Any lint errors will be shown in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode.  
+For more information, see the [running tests](https://facebook.github.io/create-react-app/docs/running-tests) documentation.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `build` folder.  
+It optimizes React for the best performance and minifies the files.  
+The filenames include hashes for better caching.  
+Your app is now ready for deployment.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+For deployment options, refer to the [Create React App deployment guide](https://facebook.github.io/create-react-app/docs/deployment).
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Note:** This is a one-way operation. Once you `eject`, you can't go back!  
+Use this command only if you're not satisfied with the default configuration.  
+It will copy all build dependencies, configurations, and scripts into your project, giving you full control over them.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To get more information, check out the following resources:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Create React App Documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+- [React Documentation](https://reactjs.org/)
 
 ### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Learn more about [code splitting in Create React App](https://facebook.github.io/create-react-app/docs/code-splitting).
 
 ### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Check out how to analyze your app's bundle size [here](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size).
 
 ### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Learn how to make your app a Progressive Web App [here](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app).
 
 ### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Explore advanced configuration options [here](https://facebook.github.io/create-react-app/docs/advanced-configuration).
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+For detailed deployment instructions, refer to the [deployment guide](https://facebook.github.io/create-react-app/docs/deployment).
 
-### `npm run build` fails to minify
+### Troubleshooting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If `npm run build` fails to minify, check out the troubleshooting section [here](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify).
+
+---
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
