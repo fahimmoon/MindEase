@@ -1,0 +1,49 @@
+<svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite operator="over" in="blur"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#2C7A61" flood-opacity="0.6"/>
+    </filter>
+    <linearGradient id="leafGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#38a081"/>
+      <stop offset="100%" style="stop-color:#2C7A61"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer circle -->
+  <circle cx="75" cy="75" r="70" 
+          stroke="url(#leafGradient)" 
+          stroke-width="2"
+          fill="none"
+          filter="url(#glow)"
+          opacity="0.8">
+    <animate attributeName="opacity"
+             values="0.8;1;0.8"
+             dur="3s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Brain/Leaf combined symbol -->
+  <path fill="url(#leafGradient)" 
+        filter="url(#glow)" 
+        d="M75,30c-19.33,0-35,15.67-35,35c0,19.33,15.67,35,35,35s35-15.67,35-35C110,45.67,94.33,30,75,30z
+           M75,90c-13.79,0-25-11.21-25-25s11.21-25,25-25s25,11.21,25,25S88.79,90,75,90z
+           M82.5,57.5c-4.14-4.14-10.85-4.14-15,0c-4.14,4.14-4.14,10.85,0,15c4.14,4.14,10.85,4.14,15,0
+           C86.64,68.35,86.64,61.64,82.5,57.5z">
+    <animate attributeName="opacity"
+             values="0.9;1;0.9"
+             dur="2s"
+             repeatCount="indefinite"/>
+  </path>
+
+  <!-- Additional decorative elements -->
+  <circle cx="75" cy="75" r="5" 
+          fill="#4DFFD1" 
+          filter="url(#glow)">
+    <animate attributeName="r"
+             values="5;6;5"
+             dur="2s"
+             repeatCount="indefinite"/>
+  </circle>
+</svg>

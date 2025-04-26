@@ -1,0 +1,40 @@
+<svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer circle with gradient -->
+  <circle cx="75" cy="75" r="70" fill="url(#circleGradient)" />
+  
+  <!-- Brain left hemisphere -->
+  <path d="M45 55C35 65 35 85 45 95C55 105 65 105 75 95" 
+        stroke="#ffffff" strokeWidth="3" strokeLinecap="round" fill="none">
+    <animate attributeName="d" 
+             values="M45 55C35 65 35 85 45 95C55 105 65 105 75 95;
+                     M45 52C35 62 35 88 45 98C55 108 65 108 75 98;
+                     M45 55C35 65 35 85 45 95C55 105 65 105 75 95"
+             dur="4s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Brain right hemisphere -->
+  <path d="M105 55C115 65 115 85 105 95C95 105 85 105 75 95" 
+        stroke="#ffffff" strokeWidth="3" strokeLinecap="round" fill="none">
+    <animate attributeName="d" 
+             values="M105 55C115 65 115 85 105 95C95 105 85 105 75 95;
+                     M105 52C115 62 115 88 105 98C95 108 85 108 75 98;
+                     M105 55C115 65 115 85 105 95C95 105 85 105 75 95"
+             dur="4s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Leaf overlay -->
+  <path d="M75 40C85 30 100 30 110 40C120 50 120 70 75 95C30 70 30 50 40 40C50 30 65 30 75 40Z" 
+        fill="#ffffff" fillOpacity="0.15">
+    <animate attributeName="fill-opacity" 
+             values="0.15;0.25;0.15" 
+             dur="3s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <radialGradient id="circleGradient" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#38a081"/>
+      <stop offset="100%" stop-color="#2C7A61"/>
+    </radialGradient>
+  </defs>
+</svg>

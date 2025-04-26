@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#38a081"/>
+      <stop offset="100%" style="stop-color:#2C7A61"/>
+    </linearGradient>
+  </defs>
+  
+  <path fill="url(#logoGradient)" 
+        d="M16,4c-6.627,0-12,5.373-12,12s5.373,12,12,12s12-5.373,12-12S22.627,4,16,4z
+           M16,24c-4.418,0-8-3.582-8-8s3.582-8,8-8s8,3.582,8,8S20.418,24,16,24z
+           M18,14c-1.657-1.657-4.343-1.657-6,0c-1.657,1.657-1.657,4.343,0,6c1.657,1.657,4.343,1.657,6,0
+           C19.657,18.343,19.657,15.657,18,14z"/>
+</svg>

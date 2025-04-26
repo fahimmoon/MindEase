@@ -1,0 +1,22 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular background -->
+  <circle cx="60" cy="60" r="56" fill="#2C7A61" opacity="0.1"/>
+  <circle cx="60" cy="60" r="48" stroke="#2C7A61" stroke-width="2" stroke-dasharray="4 4"/>
+  
+  <!-- Lotus flower petals -->
+  <path d="M60 40C65 25 75 20 85 25C95 30 95 45 85 55C75 65 65 60 60 40Z" fill="#38a081" opacity="0.9">
+    <animate attributeName="opacity" values="0.7;0.9;0.7" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <path d="M60 40C55 25 45 20 35 25C25 30 25 45 35 55C45 65 55 60 60 40Z" fill="#38a081" opacity="0.9">
+    <animate attributeName="opacity" values="0.7;0.9;0.7" dur="3s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Center meditation figure -->
+  <path d="M60 45C63.3137 45 66 42.3137 66 39C66 35.6863 63.3137 33 60 33C56.6863 33 54 35.6863 54 39C54 42.3137 56.6863 45 60 45Z" fill="#2C7A61"/>
+  <path d="M48 75C48 65 54 55 60 55C66 55 72 65 72 75C72 85 66 85 60 85C54 85 48 85 48 75Z" fill="#2C7A61"/>
+  
+  <!-- Peaceful waves -->
+  <path d="M30 65C40 60 50 60 60 65C70 70 80 70 90 65" stroke="#2C7A61" stroke-width="2" stroke-linecap="round">
+    <animate attributeName="d" values="M30 65C40 60 50 60 60 65C70 70 80 70 90 65;M30 67C40 72 50 72 60 67C70 62 80 62 90 67;M30 65C40 60 50 60 60 65C70 70 80 70 90 65" dur="4s" repeatCount="indefinite"/>
+  </path>
+</svg>
